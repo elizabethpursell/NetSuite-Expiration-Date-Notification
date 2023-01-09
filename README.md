@@ -17,12 +17,12 @@ This project sends an email listing the inventory items, including their lot num
 ## Project Setup
 ### Saved Searches
 Be sure to note the saved search ID.
-- **Search for Items that Expire in Two Weeks:**
+- **Search for Expiration Recertification:**
     - **Function:** collects all the inventory details with expiration dates within the next two weeks
     - **Search Type:** Inventory Detail
     - **Criteria:** Expiration Date is within 0 days ago and 2 weeks from now, Inventory Number: Available is greater than 0, Status is Good, Item: Type is Inventory Item
-    - **Result Columns:** Internal ID, Status, Item, Number, Location, Expiration Date, Inventory Number: Available, Bin Number
-    - **Summary Types:** Group the following fields: Status, Item, Number, Location, Expiration Date, Inventory Number: Available, Bin Number
+    - **Result Columns:** Internal ID, Status, Item, Number, Expiration Date
+    - **Summary Types:** Group the following fields: Status, Item, Number, Expiration Date
     - **Sort By:** Expiration Date, Number, Bin Number
     - **Permissions:** Public
 ### Uploading to NetSuite
