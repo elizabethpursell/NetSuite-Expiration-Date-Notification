@@ -1,6 +1,6 @@
 # NetSuite-Expiration-Date-Notification
 ## Project Overview
-Insert picture of email
+<img width="635" alt="almostExpiredEmail" src="https://user-images.githubusercontent.com/94419306/212152431-157d6996-f688-4d61-988c-fa02a65a37ab.png">
 
 ### Purpose
 This project sends an email listing the inventory items, including their lot numbers, bin numbers, locations, and expiration dates, that will expire within the next two weeks. It is a scheduled script that runs every Monday at 9am. This notification allows the Supply Chain team to verify the items' expiration dates before they are set to expired.
