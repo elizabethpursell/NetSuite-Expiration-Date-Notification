@@ -9,7 +9,7 @@ This project sends an email listing the inventory items, including their lot num
 - Saved Searches and Summary Types
 ### Prerequisites
 - SuiteScript/JavaScript
-  - Modules: N/search, N/record, N/email
+  - Modules: N/search, N/url, N/email
   - SuiteScript Types: Scheduled Script
   - API Version: 2.x
   - JSDoc Tags
